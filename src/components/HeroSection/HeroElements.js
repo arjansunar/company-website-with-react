@@ -1,11 +1,20 @@
 import styled from 'styled-components'
 
 export const HeroContainer = styled.section`
-    height: calc(100vh - 80px);
+    height: calc(100% - 80px);
     display: flex;
-    justify-content: space-space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 5% 10%;
+    /* overflow-x: hidden; */
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        height: calc(100vh- 160px);
+    }
+    @media screen and (max-width: 748px){
+        padding: 10% 15%;
+    }
 `
 
 export const HeroText = styled.div`
@@ -14,7 +23,12 @@ export const HeroText = styled.div`
     top:-10%;
     flex:3;
     display:flex;
-    flex-direction: column;
+    flex-direction: column; 
+    max-width: 600px;
+
+    @media screen and (max-width: 900px) {
+        position: static;
+    }
 `
 export const HeroHeading = styled.h1`
     letter-spacing: -0.2rem;
@@ -22,6 +36,14 @@ export const HeroHeading = styled.h1`
     font-weight: 900;
     margin-bottom: 1.4rem; 
     line-height: 6rem;
+    @media screen and (max-width: 1300px) {
+        letter-spacing: 0rem;
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem; 
+        line-height: 4rem;
+        
+    }
 `
 
 export const HeroParagraph = styled.p`
@@ -31,5 +53,13 @@ export const HeroParagraph = styled.p`
 `
 export const HeroImage = styled.img`
     flex:1;
+    width: auto;
+  height: auto;
+    /* @media screen and (max-width: 1300px) {
+        width: 80%;
+        height: 80%;
+    } */
+
 `
+
 
