@@ -15,6 +15,7 @@ export const HeroContainer = styled.section`
     @media screen and (max-width: 748px){
         padding: 10% 15%;
     }
+    overflow-x: hidden;
 `
 
 export const HeroText = styled.div`
@@ -55,10 +56,11 @@ export const HeroImage = styled.img`
     flex:1;
     width: auto;
   height: auto;
-    /* @media screen and (max-width: 1300px) {
-        width: 80%;
-        height: 80%;
-    } */
+
+    @media screen and (max-width: 600px) {
+        width: 400px;
+        /* height: 80%; */
+    }
 
 `
 

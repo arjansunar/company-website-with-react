@@ -1,20 +1,21 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 
-export default function CardTemplate() {
+export default function CardTemplate({ src, title, text, buttonText }) {
     return (
         <Card style={{ width: "18rem" }}>
             <Card.Img
                 variant="top"
-                src={process.env.PUBLIC_URL + "assets/mobiledev.svg"}
+                src={src}
             />
             <Card.Body>
-                <Card.Title className="text-dark">Card Title</Card.Title>
+                <Card.Title className="text-dark">{title}</Card.Title>
                 <Card.Text className="text-dark">
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    {text}
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                {buttonText &&
+                    <Button variant="primary">{buttonText}</Button>
+                }
             </Card.Body>
         </Card>
     );

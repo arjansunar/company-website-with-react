@@ -15,7 +15,7 @@ function index({ isOpen, toggle }) {
                     <SideBarLink to="about" onClick={toggle}>
                         Contact
                     </SideBarLink>
-                    <SideBarLink to="about" onClick={toggle}>
+                    <SideBarLink to="services" onClick={toggle}>
                         Services
                     </SideBarLink>
                 </SideBarMenu>

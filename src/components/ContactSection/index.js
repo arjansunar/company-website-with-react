@@ -1,13 +1,13 @@
 import React from 'react'
 import SectionHeading from '../SectionHeading'
-import { GridContainer } from "./ServiceSectionElements"
+import { GridContainer } from "../ServiceSection/ServiceSectionElements"
 import CardTemplate from "../CardTemplate"
 
-function ServiceSection() {
+function ContactSection() {
     return (
-        <div id='services'>
+        <div id='contact'>
             <SectionHeading
-                tag="Our Services"
+                tag="Contact Us"
                 title="Your complete design Solution"
                 paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's"
@@ -31,4 +31,4 @@ function ServiceSection() {
     )
 }
 
-export default ServiceSection
+export default ContactSection

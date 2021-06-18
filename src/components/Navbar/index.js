@@ -12,6 +12,11 @@ function index({ toggle }) {
                 </MobileIcon>
                 <NavMenu>
                     <NavItem>
+                        <NavLinks to="services">
+                            Services
+                        </NavLinks>
+                    </NavItem>
+                    <NavItem>
                         <NavLinks to="about">
                             About
                         </NavLinks>
@@ -21,11 +26,7 @@ function index({ toggle }) {
                             Contact
                         </NavLinks>
                     </NavItem>
-                    <NavItem>
-                        <NavLinks to="services">
-                            Services
-                        </NavLinks>
-                    </NavItem>
+
                 </NavMenu>
             </NavContainer>
         </Nav>
