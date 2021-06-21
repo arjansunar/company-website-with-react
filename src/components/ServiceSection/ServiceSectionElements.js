@@ -15,7 +15,7 @@ export const GridContainer = styled.div`
 
   display: grid;
   place-content: center;
-  gap: ${({ gap }) => (gap ? gap : "30px")};
+  gap: ${({ gap }) => (gap ? gap : "20px")};
   grid-template-columns: ${({ cols }) => cols ? `repeat(${cols},1fr)` : "repeat(2,1fr)"};
   width: fit-content;
   margin: 0 auto;
