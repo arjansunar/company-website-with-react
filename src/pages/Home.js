@@ -3,9 +3,9 @@ import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import ServiceSection from '../components/ServiceSection'
 import SideBar from '../components/Sidebar'
-import AboutSection from "../components/AboutSection"
-import ContactSection from '../components/ContactSection'
+import WorkSection from '../components/WorkSection'
 import Footer from '../components/Footer'
+import TeamSection from '../components/TeamSection'
 
 function Home() {
 
@@ -21,8 +21,8 @@ function Home() {
             <SideBar isOpen={isOpen} toggle={toggle} />
             <HeroSection />
             <ServiceSection />
-            <AboutSection />
-            <ContactSection />
+            <WorkSection />
+            <TeamSection />
             <Footer />
         </div>
     )

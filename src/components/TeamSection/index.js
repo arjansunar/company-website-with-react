@@ -5,11 +5,11 @@ import TeamCard from './card/TeamCard'
 // import CardTemplate from "../CardTemplate"
 
 
-function AboutSection() {
+function TeamSection() {
     return (
-        <div id='about'>
+        <div id='team'>
             <SectionHeading
-                tag="About Us"
+                tag="Our team"
                 title="Your complete design Solution"
                 paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's"
@@ -56,4 +56,4 @@ function AboutSection() {
     )
 }
 
-export default AboutSection
+export default TeamSection

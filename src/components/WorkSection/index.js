@@ -3,11 +3,11 @@ import SectionHeading from '../SectionHeading'
 import { GridContainer } from "../ServiceSection/ServiceSectionElements"
 import CardTemplate from "../CardTemplate"
 
-function ContactSection() {
+function WorkSection() {
     return (
-        <div id='contact'>
+        <div id='work'>
             <SectionHeading
-                tag="Contact Us"
+                tag="Our Work"
                 title="Your complete design Solution"
                 paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's"
@@ -31,4 +31,4 @@ function ContactSection() {
     )
 }
 
-export default ContactSection
+export default WorkSection

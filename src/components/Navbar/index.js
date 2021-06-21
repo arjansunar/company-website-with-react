@@ -17,13 +17,13 @@ function index({ toggle }) {
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="about">
-                            About
+                        <NavLinks to="team">
+                            Our team
                         </NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to="contact">
-                            Contact
+                        <NavLinks to="work">
+                            Our Work
                         </NavLinks>
                     </NavItem>
 
