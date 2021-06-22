@@ -11,19 +11,18 @@ function HeroSection() {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer id="home">
             <HeroText>
                 <HeroHeading>
-                    Bring your Ideas to life
+                    We build your dream
                 </HeroHeading>
                 <HeroParagraph>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
-                </HeroParagraph>
+                    Tempor mauris integer condimentum sed diam fringilla tincidunt mauris luctus. In ut odio vitae eget mauris at elit feugiat. Viverra curabitur tristique mauris orci massa sagittis velit facilisi iaculis. Iaculis                 </HeroParagraph>
                 <Button onMouseEnter={onHover} onMouseLeave={onHover} dark primary>
                     Get Started
                 </Button>
             </HeroText>
-            <HeroImage src={process.env.PUBLIC_URL + "assets/Hero-Mock-Creative.png"}>
+            <HeroImage src={process.env.PUBLIC_URL + "assets/HeroSectionImg.svg"}>
 
             </HeroImage>
         </HeroContainer>

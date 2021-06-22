@@ -7,7 +7,10 @@ export const SectionWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 10% 10% 5% 10%;
+  padding: 4rem 10% 0% 10%;
+  @media screen and (max-width: 1000px) {
+        padding-top: 6rem;
+    }
 `;
 
 export const SectionText = styled.div`

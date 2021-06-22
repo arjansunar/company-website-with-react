@@ -10,9 +10,9 @@ export const CardWrapper = styled.div`
   /* border-radius: 0 2rem 0 2rem; */
   flex-direction: ${({ imgLeftPos }) => (imgLeftPos ? "row-reverse" : "row")};
   border-radius: ${({ imgLeftPos }) =>
-        imgLeftPos ? "2rem 0 2rem 0" : "0 2rem 0 2rem"};
+    imgLeftPos ? "2rem 0 2rem 0" : "0 2rem 0 2rem"};
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
     flex-direction: column-reverse;
     height: 500px;
     width: 300px;

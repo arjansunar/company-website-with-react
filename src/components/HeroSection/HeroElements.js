@@ -1,48 +1,55 @@
 import styled from 'styled-components'
 
 export const HeroContainer = styled.section`
-    height: calc(100% - 80px);
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5% 10%;
+    padding: 3rem 10% 15% 5%;
+    background: linear-gradient(295.03deg, #3A61BD 12.79%, #372F71 91.46%);
+    clip-path: ellipse(76% 75% at 50% 24%);
+    
     /* overflow-x: hidden; */
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1000px) {
         flex-direction: column;
-        height: calc(100vh- 160px);
+        padding-top: 6rem;
+        /* height: fit-content; */
+        clip-path:ellipse(100% 52.83% at 50% 42.93%);
     }
-    @media screen and (max-width: 748px){
-        padding: 10% 15%;
+    @media screen and (max-width: 700px){
+        padding-left: 2rem;
     }
     overflow-x: hidden;
 `
 
 export const HeroText = styled.div`
-    font-family: 'Inter', sans-serif;
+    color:#fff;
+    font-family: sans-serif;
     position: relative;
     top:-10%;
     flex:3;
     display:flex;
     flex-direction: column; 
-    max-width: 600px;
+    max-width: 450px;
 
     @media screen and (max-width: 900px) {
         position: static;
     }
 `
 export const HeroHeading = styled.h1`
-    letter-spacing: -0.2rem;
-    font-size: 4.5rem;
-    font-weight: 900;
+    font-size: 3rem;
+    max-width: 300px;
+    text-transform: capitalize;
+    font-weight: 600;
     margin-bottom: 1.4rem; 
-    line-height: 6rem;
+    line-height: 3.2rem;
+
     @media screen and (max-width: 1300px) {
-        letter-spacing: 0rem;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 1.2rem; 
-        line-height: 4rem;
+        line-height: 2.5rem;
         
     }
 `
@@ -54,11 +61,18 @@ export const HeroParagraph = styled.p`
 `
 export const HeroImage = styled.img`
     flex:1;
+    max-width: 450px;
     width: auto;
-  height: auto;
+    height: auto;
+    position: relative;
+    top:-10%;
 
-    @media screen and (max-width: 600px) {
-        width: 400px;
+    @media screen and (max-width: 1200px) {
+        margin-top: 3rem;    
+    }
+
+    @media screen and (max-width: 700px) {
+        width: 350px;
         /* height: 80%; */
     }
 

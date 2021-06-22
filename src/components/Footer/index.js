@@ -11,10 +11,9 @@ export default function Footer() {
             <FooterWrapper>
                 <FooterLogo>Logo</FooterLogo>
                 <FooterLinkWrapper>
-                    <FooterLink to="about">About Us</FooterLink>
-                    <FooterLink to="contact">Contact Us</FooterLink>
                     <FooterLink to="services">Services</FooterLink>
-                    <FooterLink></FooterLink>
+                    <FooterLink to="team">Our Team</FooterLink>
+                    <FooterLink to="work">Our Work</FooterLink>
                 </FooterLinkWrapper>
             </FooterWrapper>
             <FooterCopyrightSection>

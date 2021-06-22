@@ -47,7 +47,7 @@ export const CardSocialLinks = styled.div`
   justify-content: space-between;
   /* background: #fff; */
   margin-left: 1.5rem;
-  z-index: 10;
+  z-index: 2;
 `;
 
 export const CardSocialIcon = styled(SocialIcon)`
