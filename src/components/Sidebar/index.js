@@ -9,15 +9,17 @@ function index({ isOpen, toggle }) {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink to="about" onClick={toggle}>
-                        About
-                    </SideBarLink>
-                    <SideBarLink to="about" onClick={toggle}>
-                        Contact
-                    </SideBarLink>
                     <SideBarLink to="services" onClick={toggle}>
                         Services
                     </SideBarLink>
+                    <SideBarLink to="work" onClick={toggle}>
+                        Our Work
+                    </SideBarLink>
+                    <SideBarLink to="team" onClick={toggle}>
+                        Our Team
+                    </SideBarLink>
+
+
                 </SideBarMenu>
             </SideBarWrapper>
         </SideBarContainer>
