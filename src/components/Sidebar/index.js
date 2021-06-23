@@ -9,10 +9,13 @@ function index({ isOpen, toggle }) {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
+<<<<<<< HEAD
                     <SideBarLink to="home" onClick={toggle}>
                         Home
                     </SideBarLink>
 
+=======
+>>>>>>> 4e4483cc308c79379c29834183a8e37a14fb780e
                     <SideBarLink to="services" onClick={toggle}>
                         Services
                     </SideBarLink>
@@ -22,9 +25,13 @@ function index({ isOpen, toggle }) {
                     <SideBarLink to="team" onClick={toggle}>
                         Our Team
                     </SideBarLink>
+<<<<<<< HEAD
                     <SideBarLink to="testimonials" onClick={toggle}>
                         Testimonials
                     </SideBarLink>
+=======
+
+>>>>>>> 4e4483cc308c79379c29834183a8e37a14fb780e
 
                 </SideBarMenu>
             </SideBarWrapper>

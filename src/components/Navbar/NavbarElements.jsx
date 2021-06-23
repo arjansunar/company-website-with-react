@@ -74,7 +74,11 @@ export const NavMenu = styled.ul`
 
    
     @media screen and (max-width: 1200px){
+<<<<<<< HEAD
     width: 30rem;
+=======
+    width: 25rem;
+>>>>>>> 4e4483cc308c79379c29834183a8e37a14fb780e
     }
     @media screen and (max-width: 768px){
         display: none;

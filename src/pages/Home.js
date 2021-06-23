@@ -6,7 +6,10 @@ import SideBar from '../components/Sidebar'
 import WorkSection from '../components/WorkSection'
 import Footer from '../components/Footer'
 import TeamSection from '../components/TeamSection'
+<<<<<<< HEAD
 import TestimonialSection from '../components/TestimonialSection'
+=======
+>>>>>>> 4e4483cc308c79379c29834183a8e37a14fb780e
 
 function Home() {
 
@@ -24,9 +27,13 @@ function Home() {
             <ServiceSection />
             <WorkSection />
             <TeamSection />
+<<<<<<< HEAD
             <TestimonialSection />
             <Footer />
 
+=======
+            <Footer />
+>>>>>>> 4e4483cc308c79379c29834183a8e37a14fb780e
         </div>
     )
 }
