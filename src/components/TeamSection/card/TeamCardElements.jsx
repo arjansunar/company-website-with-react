@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 export const CardWrapper = styled.div`
   max-width: 350px;
   min-width: 250px;
-
+  margin-bottom: 2rem;
   height: 480px;
   border-radius: 1rem;
   background-image: ${({ imageSrc }) => `url(${imageSrc})`};

@@ -31,7 +31,11 @@ function index({ toggle }) {
                             Team
                         </NavLinks>
                     </NavItem>
-
+                    <NavItem>
+                        <NavLinks to="testimonials" activeClass="active" spy={true} smooth={true} offset={-10} duration={300}>
+                            Testimonials
+                        </NavLinks>
+                    </NavItem>
 
                 </NavMenu>
                 <NavButton >

@@ -9,6 +9,10 @@ function index({ isOpen, toggle }) {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
+                    <SideBarLink to="home" onClick={toggle}>
+                        Home
+                    </SideBarLink>
+
                     <SideBarLink to="services" onClick={toggle}>
                         Services
                     </SideBarLink>
@@ -18,7 +22,9 @@ function index({ isOpen, toggle }) {
                     <SideBarLink to="team" onClick={toggle}>
                         Our Team
                     </SideBarLink>
-
+                    <SideBarLink to="testimonials" onClick={toggle}>
+                        Testimonials
+                    </SideBarLink>
 
                 </SideBarMenu>
             </SideBarWrapper>

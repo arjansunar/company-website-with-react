@@ -6,6 +6,7 @@ import SideBar from '../components/Sidebar'
 import WorkSection from '../components/WorkSection'
 import Footer from '../components/Footer'
 import TeamSection from '../components/TeamSection'
+import TestimonialSection from '../components/TestimonialSection'
 
 function Home() {
 
@@ -23,7 +24,9 @@ function Home() {
             <ServiceSection />
             <WorkSection />
             <TeamSection />
+            <TestimonialSection />
             <Footer />
+
         </div>
     )
 }
