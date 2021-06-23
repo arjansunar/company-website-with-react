@@ -1,0 +1,35 @@
+/* hiding the carousel buttons on mobile devices */
+.rec.rec-arrow {
+    display: none;
+}  
+/* @media screen and (max-width: 600px) {
+     
+} */
+
+/* navigation dots */
+.rec.rec-dot_active{
+    background: #3A6DD0;
+    box-shadow: none;
+    border: none;
+}   
+
+.rec.rec-dot{
+    height:12px;
+    width: 12px;
+    margin: 0 8px;
+    box-shadow: none;
+    border: 1px solid #00000033;
+}
+
+.rec.rec-dot:hover{
+    box-shadow: none;
+}
+
+.rec.rec-dot:focus{
+    box-shadow: none;
+    border: 1px solid #00000033;
+}
+
+.rec.rec-item-wrapper {
+    width: fit-content;
+}
